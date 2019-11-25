@@ -1,6 +1,6 @@
 package com.wangbin.clouddemo.util
 
-import java.io.File
+import java.io.{File, FileWriter}
 import java.util.Date
 
 import org.apache.spark.SparkConf
@@ -10,26 +10,24 @@ import org.apache.spark.sql.types.StructType
 
 object SparkBuilder {
 
-  private var spark:SparkSession = null
+  private var spark: SparkSession = null
 
   private val separator = '|'
 
-  var ExceptionFiles = List()
-
-  def builder(flag:Boolean=false): SparkSession ={
-    if (spark == null){
-      synchronized{
+  def builder(flag: Boolean = false): SparkSession = {
+    if (spark == null) {
+      synchronized {
         val sparkConf = new SparkConf()
-        if (flag){
-          sparkConf.setMaster("local[5]")
+        if (flag) {
+          sparkConf.setMaster("local[1]")
           sparkConf.setAppName("spark_handle_data_test ")
         }
         sparkConf.set("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
-        sparkConf.set("log.level","error")
+        sparkConf.set("log.level", "error")
         spark = SparkSession
           .builder()
           .config(sparkConf)
-//          .enableHiveSupport()
+          //          .enableHiveSupport()
           .getOrCreate()
       }
     }
@@ -37,19 +35,29 @@ object SparkBuilder {
   }
 
 
-  def getDataFrame(spark: SparkSession, schema: StructType,path:String):Dataset[_]={
+  def getDataFrame(spark: SparkSession, schema: StructType, path: String, header: Boolean = false): Dataset[_] = {
 
     val textRdd: RDD[String] = spark.sparkContext.textFile(path)
-    val errorRdd: RDD[String] = textRdd.filter(_.split(separator).size > schema.size)
-    if (errorRdd.isEmpty()){
-      val RowRdd: RDD[Row] = textRdd.map(_.split(separator)).map(lines => Row(lines:_*))
-      spark.createDataFrame(RowRdd,schema)
-    }else{
+    val errorRdd: RDD[String] = textRdd.filter(_.split(separator).length > schema.size)
+    if (errorRdd.isEmpty()) {
+      var RowRdd:RDD[Row] = null
+      if (header) {
+        val head = textRdd.take(1)
+        RowRdd = textRdd.filter(!head.contains(_)).map(_.split(separator)).map(lines => Row(lines: _*))
+      }else{
+        RowRdd = textRdd.map(_.split(separator)).map(lines => Row(lines: _*))
+      }
+      spark.createDataFrame(RowRdd, schema)
+    } else {
+      val errLines: Array[String] = errorRdd.collect()
       val name: String = new File(path).getName.split('.')(0)
-      ExceptionFiles ++ name
-      null
+      val writer = new FileWriter("Exception_Table_"+name)
+      writer.write(errLines.mkString(System.lineSeparator()))
+      writer.close()
+      throw new Exception(s"Found Exception Table: ${name}")
+      spark.emptyDataFrame
     }
 
-//    null
+    //    null
   }
 }

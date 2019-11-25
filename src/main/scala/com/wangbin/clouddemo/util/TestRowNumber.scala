@@ -16,25 +16,26 @@ object TestRowNumber {
     val df: DataFrame = Seq(
       order(1, "张䶮", 12.12, 3),
       order(1, "李䶮飞", 45.2, 3),
-      order(1, "张明䶮", 56.2, 1),
-      order(2, "hongbo", 45.12, 6),
+      order(1, "李䶮飞飞", 45.2, 3),
+      order(1, "张李明䶮", 56.2, 1),
+      order(2, "hongbo李", 45.12, 6),
       order(2, "hongbo", 33.2, 3),
-      order(2, "hongbo", 45.23, 6),
-      order(2, "hongbo", 21.4, 2)
+      order(2, "hong李bo", 45.23, 6)
     ).toDF()
     val schema = df.schema.fieldNames
 //    df.repartition(1).select(concat_ws("|",schema.map(df(_)):_*) as schema.mkString("|")).write.option("charset", "iso-8859-1").option("sep", "|").mode("overwrite").text("D:\\IdeaProjects\\clouddemo\\src\\main\\resources\\df.txt")
+    println(schema)
+    df.filter(! $"name".like("李%")).show()
 
-
-
-    df.repartition(1)
-      .select(concat_ws("|",schema.map(df(_)):_*) as schema.mkString("|"))
-//      .write.option("charset", "iso-8859-1")
-//      .write.option("charset", "iso-8859-1")
-      .write.option("charset", "GBK")
-      .option("sep", "|")
-      .mode("overwrite")
-      .text("D:\\IdeaProjects\\clouddemo\\src\\main\\resources\\df.txt")
+//println(schema)
+//    df.repartition(1)
+//      .select(concat_ws("|",schema.map(df(_)):_*) as schema.mkString("|"))
+////      .write.option("charset", "iso-8859-1")
+////      .write.option("charset", "iso-8859-1")
+//      .write.option("charset", "GBK")
+//      .option("sep", "|")
+//      .mode("overwrite")
+//      .text("D:\\IdeaProjects\\clouddemo\\src\\main\\resources\\df.txt")
 //    val df2 = df.withColumn("row_seq",row_number().over(Window.partitionBy($"name").orderBy($"price".desc)))
 //      .filter($"row_seq"===1)
 //      .show()
