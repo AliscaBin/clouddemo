@@ -26,6 +26,8 @@ object TestRowNumber {
     df.createOrReplaceTempView("order")
     //    spark.sql("select id,name,price,nums,cast(price*nums as decimal(18,4)) as sum from order").show()  //小数精度
 
+
+    //保留小数位数
     df.selectExpr("id",
       "name",
       "price",
@@ -44,7 +46,7 @@ object TestRowNumber {
 
     val schema = df.schema.fieldNames
     //    df.repartition(1).select(concat_ws("|",schema.map(df(_)):_*) as schema.mkString("|")).write.option("charset", "iso-8859-1").option("sep", "|").mode("overwrite").text("D:\\IdeaProjects\\clouddemo\\src\\main\\resources\\df.txt")
-    println(schema)
+    println(schema.mkString("|"))
     //    df.filter(! $"name".like("李%")).show()
 
     //println(schema)
@@ -64,14 +66,14 @@ object TestRowNumber {
     //    df2.select("id","name","price").show()
 
 
-    //    val dataframe = spark.read.option("header", true)
-    //      .option("inferSchema",false)
-    //      .option("ignoreLeadingWhiteSpace", true)
-    //      .option("ignoreTrailingWhiteSpace", true)
-    //      .option("sep", "|")
-    //      .csv("D:\\IdeaProjects\\clouddemo\\src\\main\\resources\\test.csv")
-    //    dataframe.printSchema()
-    //    dataframe.filter(to_timestamp($"date","yyyy/MM/dd") > new Timestamp(parse2Date("2019-02-28","yyyy-MM-dd").getTime)).show()
+//        val dataframe = spark.read.option("header", true)
+//          .option("inferSchema",false)
+//          .option("ignoreLeadingWhiteSpace", true)
+//          .option("ignoreTrailingWhiteSpace", true)
+//          .option("sep", "|")
+//          .csv("D:\\IdeaProjects\\clouddemo\\src\\main\\resources\\test.csv")
+//        dataframe.printSchema()
+//        dataframe.filter(to_timestamp($"date","yyyyMMdd") > new Timestamp(parse2Date("2019-02-28","yyyy-MM-dd").getTime)).show()
 
 
     //    dataframe.select("id","name").show()

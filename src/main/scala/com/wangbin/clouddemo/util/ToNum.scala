@@ -7,8 +7,8 @@ import java.util.Date
 import org.apache.commons.lang3.time.FastDateFormat
 
 object ToNum extends App{
-  val num = ".3"
-  println(num.toDouble.formatted("%.3f").toString)
+//  val num = ".3"
+//  println(num.toDouble.formatted("%.3f").toString)
 
   def parse2Date(date: String,date_type:String): Date = {
     val dateformat = FastDateFormat.getInstance(date_type)
@@ -18,6 +18,13 @@ object ToNum extends App{
   println(new Timestamp(parse2Date("2019-02-28","yyyy-MM-dd").getTime))
 
   println(new File("D:/haha/hah.txt").getName.split('.')(0))
-
+implicit def toInt(num:String)={
+    try{
+      num.toInt
+    }catch{
+      case ex:Exception => 0
+    }
+  }
+  println("6" < 5)
 //  println((num * null) < 10)
 }

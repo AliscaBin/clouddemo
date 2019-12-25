@@ -19,10 +19,12 @@ object SparkBuilder {
       synchronized {
         val sparkConf = new SparkConf()
         if (flag) {
-          sparkConf.setMaster("local[1]")
+          sparkConf.setMaster("local[*]")
           sparkConf.setAppName("spark_handle_data_test ")
         }
         sparkConf.set("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
+        sparkConf.set("spark.sql.orc.impl", "native")
+        sparkConf.set("spark.sql.sources.partitionColumnTypeInference.enabled", "false")
         sparkConf.set("log.level", "error")
         spark = SparkSession
           .builder()

@@ -132,7 +132,7 @@ object DateUtils {
   def getDayNumOnMonth(date: Date): Int = {
     val cal = Calendar.getInstance()
     cal.setTime(date)
-    var day = cal.getLeastMaximum(Calendar.DATE)
+    var day = cal.getMaximum(Calendar.DAY_OF_MONTH)
     day
   }
 
@@ -376,7 +376,7 @@ object DateUtils {
     sdf.parse(date)
   }
 
-  def parse2Date(date: String,date_type:String): Date = {
+  def parse2Date(date: String,date_type:String="yyyyMMdd"): Date = {
     val dateformat = FastDateFormat.getInstance(date_type)
     dateformat.parse(date)
   }
@@ -384,6 +384,40 @@ object DateUtils {
   def date2String(date: Date,date_type:String): String = {
     val dateformat = FastDateFormat.getInstance(date_type)
     dateformat.format(date)
+  }
+
+  /**
+   * 对日期添加月份后返回timestamp
+   * @param date
+   * @param date_type
+   * @param numMonth
+   * @return
+   */
+  def addMonth2Timestamp(date: String,date_type:String, numMonth: Integer):Timestamp = {
+    val dateformat = FastDateFormat.getInstance(date_type)
+    dateformat.parse(date)
+    val cal = Calendar.getInstance();
+    cal.setTime(dateformat.parse(date))
+    cal.add(Calendar.MONTH, numMonth)
+    new Timestamp(cal.getTimeInMillis)
+  }
+
+  /**
+   * 渤海银行业务时间计算需要
+   * @param date1
+   * @param date2
+   * @return
+   */
+  def rangeYMD(date1: Date, date2: Date): String = {
+    val cal1: Calendar = Calendar.getInstance()
+    val cal2: Calendar = Calendar.getInstance()
+    cal1.setTime(date1)
+    cal2.setTime(date2)
+    val rangeY: Int = cal1.get(Calendar.YEAR) - cal2.get(Calendar.YEAR)
+    val rangeM: Int = cal1.get(Calendar.MONTH) - cal2.get(Calendar.MONTH)
+    val rangeD: Int = cal1.get(Calendar.DAY_OF_MONTH) - cal2.get(Calendar.DAY_OF_MONTH)
+    val flag = if (rangeD >= 1) 1 else 0
+    (rangeY*12+rangeM+flag).toString
   }
 
   /**
@@ -469,8 +503,13 @@ object DateUtils {
 
   def main(args: Array[String]): Unit = {
     val yesterday = parse("20191231")
-    println(isLastDateOnMonth(yesterday))
-    println(isLastDateOnYear( yesterday))
+//    println(isLastDateOnMonth(yesterday))
+//    println(isLastDateOnYear( yesterday))
+    val lastday: String = date2String(getLastDateOnMonth(parse2Date("20190812","yyyyMMdd")),"yyyyMMdd")
+    println("lastday:" + lastday)
+
+    val i: Int = getDayNumOnMonth(parse2Date("20190812","yyyyMMdd"))
+    println("nums day : " + i)
     //    println(getPreviousMonth("20181202"))
     //    println(isTheEndOfAMonth("20000228"))
     //    println(getFirstDateOnMonth(sdf.parse("20171120")))

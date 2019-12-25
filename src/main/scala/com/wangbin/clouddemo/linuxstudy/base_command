@@ -1,0 +1,10 @@
+命令的用法通用格式
+
+	#COMMAND OPTIONS ARGUMENTS
+	发起命令：请求内核将某个二进制程序运行为一个进程
+		程序-->进程
+		静态-->动态（有生命周期）
+	命令本身是一个可执行的程序文件：二进制格式的文件，有可能会调用共享库文件：
+		多数系统程序文件都存放在：/bin,/sbin,/usr/bin,/usr/sbin,/usr/local/bin,/usr/local/sbin
+			普通命令：/bin,/usr/bin/,/usr/local/bin
+			管理命令：/sbin,/usr/sbin,/usr/local/sbin

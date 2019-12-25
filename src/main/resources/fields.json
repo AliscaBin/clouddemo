@@ -1,0 +1,772 @@
+[
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "HIS_DW_DATE",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "HIS_DW_DATE"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "CINO",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "CINO"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "CUS_NM",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "CUS_NM"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "CLS_SUB",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "CLS_SUB"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "DEP_ID_CLS",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "DEP_ID_CLS"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "CUS_ATTR",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "CUS_ATTR"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "BR",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "BR"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "CUS_STS",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "CUS_STS"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "IS_AVL",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "IS_AVL"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "CNTY",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "CNTY"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "ID_TYP",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "ID_TYP"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "ID_NO",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "ID_NO"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "BIR_DT",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "BIR_DT"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "NATION",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "NATION"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "SEX",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "SEX"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "HLT_STS",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "HLT_STS"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "MARRY_STS",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "MARRY_STS"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "EDU_DEG",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "EDU_DEG"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "INC_LVL",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "INC_LVL"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "HOU_CIS",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "HOU_CIS"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "FMM_NUM",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "FMM_NUM"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "FAM_INC",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "FAM_INC"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "PRI_FCP",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "PRI_FCP"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "CID_TYP",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "CID_TYP"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "CID_NO",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "CID_NO"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "COU_NM",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "COU_NM"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "CUS_BK_REL",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "CUS_BK_REL"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "CRE_BR",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "CRE_BR"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "OPN_DT",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "OPN_DT"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "CUS_MGR",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "CUS_MGR"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "IN_STAF_FLG",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "IN_STAF_FLG"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "BF_LVL",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "BF_LVL"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "E_BK_FLG",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "E_BK_FLG"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "M_BK_FLG",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "M_BK_FLG"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "TEL_BK_FLG",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "TEL_BK_FLG"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "E_PAY_FLG",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "E_PAY_FLG"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "MES_BK_FLG",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "MES_BK_FLG"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "ALIPAY_CARD_FLG",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "ALIPAY_CARD_FLG"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "ALIPAY_SHOT_FLG",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "ALIPAY_SHOT_FLG"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "TENPAY_CARD_FLG",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "TENPAY_CARD_FLG"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "TENPAY_SHOT_FLG",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "TENPAY_SHOT_FLG"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "TJB_FLG",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "TJB_FLG"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "IS_AC",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "IS_AC"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "DATA_DT",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "DATA_DT"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "CUST_ID",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "CUST_ID"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "CUST_NAM",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "CUST_NAM"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "ORG_NUM",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "ORG_NUM"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "RESIDENT_FLG",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "RESIDENT_FLG"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "CUS_STS_CR",
+      "default": "P",
+      "ret_type": 0
+    },
+    "alias": "CUS_STS_CR"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "CITY_VILLAGE_FLG",
+      "default": "",
+      "ret_type": 0
+    },
+    "alias": "CITY_VILLAGE_FLG"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "INLANDORRSHORE_FLG",
+      "default": "N",
+      "ret_type": 0
+    },
+    "alias": "INLANDORRSHORE_FLG"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "RELATED_TYP",
+      "default": "P",
+      "ret_type": 0
+    },
+    "alias": "RELATED_TYP"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "STOCK_PCT",
+      "default": "",
+      "ret_type": 0
+    },
+    "alias": "STOCK_PCT"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "ID_TYPE",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "ID_TYPE"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "ID_NO_CR",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "ID_NO_CR"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "NATION_CD",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "NATION_CD"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "SRCSYS_CD",
+      "default": "COR",
+      "ret_type": 0
+    },
+    "alias": "SRCSYS_CD"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "INCOME",
+      "default": "",
+      "ret_type": 0
+    },
+    "alias": "INCOME"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "DATA_DATE",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "DATA_DATE"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "INDCATEGORY",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "INDCATEGORY"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "INHABITANCY_ADDRESS",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "INHABITANCY_ADDRESS"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "INHABITANCY_REGION_CD",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "INHABITANCY_REGION_CD"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "UNITKIND",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "UNITKIND"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "CR_SEX",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "CR_SEX"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "CERTTYPE",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "CERTTYPE"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "CERTID",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "CERTID"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "CUST_PAYRIGHT_TYP",
+      "default": "",
+      "ret_type": 0
+    },
+    "alias": "CUST_PAYRIGHT_TYP"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "CORP_TYP",
+      "default": "null",
+      "ret_type": 0
+    },
+    "alias": "CORP_TYP"
+  },
+  {
+    "caseLists": [
+    ],
+    "default_ret": {
+      "old_col": "FCUST_RELATIVE_TYPE",
+      "default": "0",
+      "ret_type": 0
+    },
+    "alias": "FCUST_RELATIVE_TYPE"
+  },
+  {
+    "caseLists": [
+      {
+        "condLists": [
+          {
+            "col": "ID_TYP",
+            "op": "in",
+            "value": "6,5",
+            "data_type": "String"
+          }
+        ],
+        "ret": {
+          "old_col": "ID_TYP",
+          "default": "2",
+          "ret_type": 1
+        }
+      },
+      {
+        "condLists": [
+          {
+            "col": "CNTY",
+            "op": "!=",
+            "value": "CHN",
+            "data_type": "String"
+          }
+        ],
+        "ret": {
+          "old_col": "CNTY",
+          "default": "2",
+          "ret_type": 1
+        }
+      }
+    ],
+    "default_ret": {
+      "old_col": "RESIDENT_FLG2",
+      "default": "1",
+      "ret_type": 0
+    },
+    "alias": "RESIDENT_FLG2"
+  },
+  {
+    "caseLists": [
+      {
+        "condLists": [
+          {
+            "col": "ID_TYP",
+            "op": "in",
+            "value": "6,5",
+            "data_type": "String"
+          }
+        ],
+        "ret": {
+          "old_col": "ID_TYP",
+          "default": "2",
+          "ret_type": 1
+        }
+      },
+      {
+        "condLists": [
+          {
+            "col": "CNTY",
+            "op": "!=",
+            "value": "CHN",
+            "data_type": "String"
+          }
+        ],
+        "ret": {
+          "old_col": "CNTY",
+          "default": "2",
+          "ret_type": 1
+        }
+      }
+    ],
+    "default_ret": {
+      "old_col": "CUS_ATTR_CR",
+      "default": "",
+      "ret_type": 0
+    },
+    "alias": "CUS_ATTR_CR"
+  }
+]
