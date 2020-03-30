@@ -1,772 +1,98 @@
-[
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "HIS_DW_DATE",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "HIS_DW_DATE"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "CINO",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "CINO"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "CUS_NM",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "CUS_NM"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "CLS_SUB",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "CLS_SUB"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "DEP_ID_CLS",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "DEP_ID_CLS"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "CUS_ATTR",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "CUS_ATTR"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "BR",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "BR"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "CUS_STS",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "CUS_STS"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "IS_AVL",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "IS_AVL"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "CNTY",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "CNTY"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "ID_TYP",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "ID_TYP"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "ID_NO",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "ID_NO"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "BIR_DT",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "BIR_DT"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "NATION",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "NATION"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "SEX",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "SEX"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "HLT_STS",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "HLT_STS"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "MARRY_STS",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "MARRY_STS"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "EDU_DEG",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "EDU_DEG"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "INC_LVL",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "INC_LVL"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "HOU_CIS",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "HOU_CIS"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "FMM_NUM",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "FMM_NUM"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "FAM_INC",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "FAM_INC"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "PRI_FCP",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "PRI_FCP"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "CID_TYP",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "CID_TYP"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "CID_NO",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "CID_NO"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "COU_NM",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "COU_NM"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "CUS_BK_REL",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "CUS_BK_REL"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "CRE_BR",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "CRE_BR"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "OPN_DT",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "OPN_DT"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "CUS_MGR",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "CUS_MGR"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "IN_STAF_FLG",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "IN_STAF_FLG"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "BF_LVL",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "BF_LVL"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "E_BK_FLG",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "E_BK_FLG"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "M_BK_FLG",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "M_BK_FLG"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "TEL_BK_FLG",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "TEL_BK_FLG"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "E_PAY_FLG",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "E_PAY_FLG"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "MES_BK_FLG",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "MES_BK_FLG"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "ALIPAY_CARD_FLG",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "ALIPAY_CARD_FLG"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "ALIPAY_SHOT_FLG",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "ALIPAY_SHOT_FLG"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "TENPAY_CARD_FLG",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "TENPAY_CARD_FLG"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "TENPAY_SHOT_FLG",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "TENPAY_SHOT_FLG"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "TJB_FLG",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "TJB_FLG"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "IS_AC",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "IS_AC"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "DATA_DT",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "DATA_DT"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "CUST_ID",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "CUST_ID"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "CUST_NAM",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "CUST_NAM"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "ORG_NUM",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "ORG_NUM"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "RESIDENT_FLG",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "RESIDENT_FLG"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "CUS_STS_CR",
-      "default": "P",
-      "ret_type": 0
-    },
-    "alias": "CUS_STS_CR"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "CITY_VILLAGE_FLG",
-      "default": "",
-      "ret_type": 0
-    },
-    "alias": "CITY_VILLAGE_FLG"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "INLANDORRSHORE_FLG",
-      "default": "N",
-      "ret_type": 0
-    },
-    "alias": "INLANDORRSHORE_FLG"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "RELATED_TYP",
-      "default": "P",
-      "ret_type": 0
-    },
-    "alias": "RELATED_TYP"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "STOCK_PCT",
-      "default": "",
-      "ret_type": 0
-    },
-    "alias": "STOCK_PCT"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "ID_TYPE",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "ID_TYPE"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "ID_NO_CR",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "ID_NO_CR"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "NATION_CD",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "NATION_CD"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "SRCSYS_CD",
-      "default": "COR",
-      "ret_type": 0
-    },
-    "alias": "SRCSYS_CD"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "INCOME",
-      "default": "",
-      "ret_type": 0
-    },
-    "alias": "INCOME"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "DATA_DATE",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "DATA_DATE"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "INDCATEGORY",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "INDCATEGORY"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "INHABITANCY_ADDRESS",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "INHABITANCY_ADDRESS"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "INHABITANCY_REGION_CD",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "INHABITANCY_REGION_CD"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "UNITKIND",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "UNITKIND"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "CR_SEX",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "CR_SEX"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "CERTTYPE",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "CERTTYPE"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "CERTID",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "CERTID"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "CUST_PAYRIGHT_TYP",
-      "default": "",
-      "ret_type": 0
-    },
-    "alias": "CUST_PAYRIGHT_TYP"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "CORP_TYP",
-      "default": "null",
-      "ret_type": 0
-    },
-    "alias": "CORP_TYP"
-  },
-  {
-    "caseLists": [
-    ],
-    "default_ret": {
-      "old_col": "FCUST_RELATIVE_TYPE",
-      "default": "0",
-      "ret_type": 0
-    },
-    "alias": "FCUST_RELATIVE_TYPE"
-  },
-  {
-    "caseLists": [
-      {
-        "condLists": [
-          {
-            "col": "ID_TYP",
-            "op": "in",
-            "value": "6,5",
-            "data_type": "String"
-          }
-        ],
-        "ret": {
-          "old_col": "ID_TYP",
-          "default": "2",
-          "ret_type": 1
-        }
-      },
-      {
-        "condLists": [
-          {
-            "col": "CNTY",
-            "op": "!=",
-            "value": "CHN",
-            "data_type": "String"
-          }
-        ],
-        "ret": {
-          "old_col": "CNTY",
-          "default": "2",
-          "ret_type": 1
-        }
-      }
-    ],
-    "default_ret": {
-      "old_col": "RESIDENT_FLG2",
-      "default": "1",
-      "ret_type": 0
-    },
-    "alias": "RESIDENT_FLG2"
-  },
-  {
-    "caseLists": [
-      {
-        "condLists": [
-          {
-            "col": "ID_TYP",
-            "op": "in",
-            "value": "6,5",
-            "data_type": "String"
-          }
-        ],
-        "ret": {
-          "old_col": "ID_TYP",
-          "default": "2",
-          "ret_type": 1
-        }
-      },
-      {
-        "condLists": [
-          {
-            "col": "CNTY",
-            "op": "!=",
-            "value": "CHN",
-            "data_type": "String"
-          }
-        ],
-        "ret": {
-          "old_col": "CNTY",
-          "default": "2",
-          "ret_type": 1
-        }
-      }
-    ],
-    "default_ret": {
-      "old_col": "CUS_ATTR_CR",
-      "default": "",
-      "ret_type": 0
-    },
-    "alias": "CUS_ATTR_CR"
-  }
-]
+data_dt                   ,--varchar2(10)      数据日期  '1900-01-01'
+cust_id                   ,--varchar2(32)      客户号
+org_num                   ,--varchar2(12)      机构号
+cust_nam                  ,--varchar2(200)     客户名称
+cust_group_no             ,--varchar2(20)  y   客户组号
+cust_group_nam            ,--varchar2(128) y   客户组名称
+cust_typ                  ,--varchar2(6)       客户分类
+cust_sts                  ,--char(1)           客户状态
+resident_flg              ,--varchar2(6)       居民标志
+city_village_flg          ,--char(1)           农村城市标志
+inlandorrshore_flg        ,--char(1)           境内境外标志
+cncapital_flg             ,--char(1)           中资标志
+related_typ               ,--varchar2(6)    y  关联方类型
+stock_pct                 ,--integer  y        持股比率
+id_type                   ,--varchar2(6)       证件类型
+id_no                     ,--varchar2(30)      证件号码
+nation_cd                 ,--char(3)           国籍或注册地国家代码
+corp_close_flg            ,--varchar2(1)       企业关停标志
+corp_scale                ,--varchar2(2)    y  企业规模
+corp_businsess_type       ,--varchar2(6)       企业行业类别
+corp_income_type          ,--varchar2(1)    y  企业收入级别分类
+corp_hold_type            ,--varchar2(1)    y  企业控股类型
+cus_risk_lev              ,--varchar2(3)    y  客户风险评级分类
+gov_loan_flg              ,--char(1)           地方融资平台公司标志
+gov_loan_level            ,--varchar2(6)    y  地方政府融资平台隶属关系
+gov_law_typ               ,--varchar2(6)    y  地方政府融资平台法律性质
+labor_flg                 ,--char(1)           劳动密集型企业标志
+is_affiliate              ,--varchar2(1)    y  是否本行附属经纪人和经销商
+bussines_type             ,--varchar2(6)       企业经济类型
+pub_com_typ               ,--varchar2(6)    y  公共企业类型
+srcsys_cd                 ,--varchar2(15)   y  源系统代码
+data_date                 ,--varchar2(10)      数据日期(udl使用)  '1900-01-01'
+region_cd                 ,--varchar2(9)    y  客户所属地区
+loan_card_no              ,--varchar2(100)  y  贷款卡编码
+sme_city_village_flg      ,--varchar2(6)    y  SME涉农标志
+register_nbr              ,--varchar2(20)   y  登记注册号
+org_upd_dt                ,--varchar2(10)   y  组织机构登记/年检/更新日期
+register_info_upd_dt      ,--varchar2(10)   y  注册信息更新日期
+cus_risk_lv_de            ,--varchar2(10)   y  信用评级结果
+cust_pd                   ,--number(18,4)   y  违约概率
+sply_chain_fina_cd        ,--varchar2(20)   y  供应链融资编码
+sply_chain_fina_core_flg  ,--varchar2(1)    y  供应链融资核心企业标识
+actr_ctrl_flg             ,--varchar2(1)    y  是否为集团实际控制人
+int_off_addr              ,--varchar2(400)  y  国内办公地址
+int_off_addr_region_cd    ,--varchar2(9)    y  国内办公地址行政区划代码
+int_off_addr_upd_dt       ,--varchar2(10)   y  国内办公地址更新日期
+cust_group_cred_rat       ,--varchar2(20)   y  集团客户信用评级
+cust_group_memb_typ       ,--varchar2(1)    y  集团客户成员类型
+parent_comp_flg           ,--varchar2(1)    y  母公司标识
+cust_adde_desc            ,--varchar2(400)  y  客户地址
+grp_register_nbr          ,--varchar2(20)   y  集团登记注册号
+org_num_grp               ,--varchar2(50)   y  集团管理机构号
+erl_group_code            ,--varchar2(100)  y  集团客户关联集团代码
+rel_group_name            ,--varchar2(400)  y  集团客户关联集团名称
+rel_type                  ,--varchar2(6)    y  集团客户关联集团关联关系类型
+CUST_PAYRIGHT_TYP         ,--VARCHAR2(10)   Y   客户电子支付权限 for pisa
+cust_dpt                  ,--客户所属部门   段宁20140702
+fcust_relative_type       ,--对方与本机构/委托人的关系    段宁20140702
+cif_nation_cd,              --CIF国籍        段宁20140702
+con_stk_typ,                 --企业控股类型   段宁20150618
+registerdgsqy,               --归属区域段宁20150618
+indu_tp ,                 --所属行业段宁20150618
+corp_id ,                    --组织机构代码   段宁20150618
+CUS_NM_CR,
+ADDR,--注册地地址
+ID_IRGN,--注册地行政区划代码
+PARM_CNM,--注册地行政区划名称
+USC_CODE --社会统一信用代码 add by lgy 2018-11-08
+
+
+DATA_DT
+CUST_ID
+CUST_NAM
+ORG_NUM
+RESIDENT_FLG
+CUS_STS_CR
+CITY_VILLAGE_FLG
+INLANDORRSHORE_FLG
+RELATED_TYP
+STOCK_PCT
+ID_TYPE
+ID_NO_CR
+NATION_CD
+SRCSYS_CD
+INCOME
+DATA_DATE
+INDCATEGORY
+INHABITANCY_ADDRESS
+INHABITANCY_REGION_CD
+UNITKIND
+CR_SEX
+CERTTYPE
+CERTID
+CUST_PAYRIGHT_TYP
+CORP_TYP
+FCUST_RELATIVE_TYPE
+RESIDENT_FLG2
+CUS_ATTR_CR

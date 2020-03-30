@@ -5,7 +5,8 @@ import java.util.Date
 
 import org.apache.spark.SparkConf
 import org.apache.spark.rdd.RDD
-import org.apache.spark.sql.{Dataset, Row, SparkSession}
+import org.apache.spark.sql.functions._
+import org.apache.spark.sql.{DataFrame, Dataset, Row, SparkSession}
 import org.apache.spark.sql.types.StructType
 
 object SparkBuilder {
@@ -25,7 +26,7 @@ object SparkBuilder {
         sparkConf.set("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
         sparkConf.set("spark.sql.orc.impl", "native")
         sparkConf.set("spark.sql.sources.partitionColumnTypeInference.enabled", "false")
-        sparkConf.set("log.level", "error")
+//        sparkConf.set("log.level", "info")
         spark = SparkSession
           .builder()
           .config(sparkConf)
@@ -33,6 +34,7 @@ object SparkBuilder {
           .getOrCreate()
       }
     }
+//    spark.sparkContext.setLogLevel("ERROR")
     spark
   }
 
@@ -59,7 +61,11 @@ object SparkBuilder {
       throw new Exception(s"Found Exception Table: ${name}")
       spark.emptyDataFrame
     }
+    null
+  }
 
-    //    null
+  def saveDF2TXT(spark:SparkSession,df:DataFrame,path:String): Unit ={
+    val schema = df.schema.fieldNames
+    df.repartition(1).select(concat_ws("|",schema.map(df(_)):_*) as schema.mkString("|")).write.option("sep", "|").mode("overwrite").text(path)
   }
 }

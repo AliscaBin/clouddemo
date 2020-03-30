@@ -8,6 +8,15 @@ object Testsubstring {
     val spark: SparkSession = SparkBuilder.builder(true)
     import spark.implicits._
     println("create the DataFrame")
+
+    val person: DataFrame = Seq(Person(1, "zhangsan", "zhangbj"),
+      Person(2, "lisi", "libj"),
+      Person(3, "wangwu", "wangsh"),
+      Person(4, "zhaoliu", "zhaotj"),
+      Person(5, "tianqi", "tiansh")
+    ).toDF()
+
+    person.select(substring($"name",1,3) as "name").show()
 //    val person: DataFrame = Seq(Person(1, "2019-08-21 13:12:33", "zhangbj"),
 //      Person(2, "lisi", "libj"),
 //      Person(3, "wangwu", "wangsh"),

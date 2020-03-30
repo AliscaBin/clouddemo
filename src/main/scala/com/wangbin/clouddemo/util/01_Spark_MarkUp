@@ -1,0 +1,12 @@
+1.  Spark SQL的默认数据源为Parquet格式，数据源为Parquet文件时，Spark SQL可以方便的执行所有的操作。
+    修改配置项 spark.sql.sources.default 可修改默认的数据源格式。
+2.  读取json文件为dataframe
+    spark.sql("select * from json.`filepath.json`")
+    读取parquet文件为dataframe
+    spark.sql("select * from parquet.`filepath.parquet`")
+3.  spark接管hive
+    依赖：
+        spark-sql_2.11  spark-hive_2.11    mysql-connectot-java
+    复制hive-site.xml到工程目录resources下，使用外置hive需要将hive的配置文件拷贝到这个位置
+    创建spark：val spark = SparkSession.builder().enableHiveSupport().getOrCreate()
+    执行spark.sql("show tables") 可查看hive中创建的表数据。
